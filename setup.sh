@@ -1,4 +1,7 @@
 cd
+# install git
+yes | sudo apt-get install git
+
 # install zsh
 yes | sudo apt-get install zsh
 yes | sudo apt-get install curl
