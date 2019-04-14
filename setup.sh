@@ -19,8 +19,8 @@ cp .tmux/.tmux.conf.local
 
 # vim
 yes | sudo apt-get install vim
-https://github.com/tinyfox266/dotvim.git
+git clone https://github.com/tinyfox266/dotvim.git
 mv dotvim .vim
 cp .vim/.vimrc .
-vim -c "PlugInstall"
+vim -c ":PlugClean" -c ":PlugInstall"
 
