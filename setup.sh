@@ -15,7 +15,7 @@ echo "source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions
 yes | sudo apt-get install tmux
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
-cp .tmux/.tmux.conf.local 
+cp .tmux/.tmux.conf.local .
 
 # vim
 yes | sudo apt-get install vim
